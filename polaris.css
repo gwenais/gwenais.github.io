@@ -1,0 +1,263 @@
+html, body{
+    padding:0;
+    margin:0;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color: white;
+    z-index:1;
+    width:100%;
+}
+
+.degrade{
+    background: linear-gradient(to top, transparent, white 25%);
+}
+
+header a {
+    font-family: 'Safira March Personal Use';
+    color:black;
+    margin:auto;
+}
+
+/*Lien normal*/
+a:link{
+    text-decoration: none;
+}
+
+/*Lien survolé*/
+a:hover{
+    text-decoration: none;
+}
+
+/*Lien cliqué*/
+a:active{
+    text-decoration: none;
+}
+
+/*Lien visité*/
+a:visited{
+    text-decoration: none;
+}
+
+header img{
+    width:12%;
+    height:auto;
+}
+
+h1{
+    font-family: "Gallient";
+    font-size: 50px;
+    text-align: center;
+}
+
+svg{
+    position:absolute;
+    z-index:-10;
+    top:0%;
+    Left:15%;
+}
+
+
+main{
+    margin-top:15vh;
+}
+
+h2{
+    font-family: 'Safira March Personal Use';
+    color: black;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Safira March Personal Use';
+    color: black;
+    text-align: center;
+}
+
+#logo{
+    background-color: #D9D9D9;
+    background-image: url(images/polaris.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border : solid 1px black;
+    border-radius: 15px;
+    width:30%;
+    height: 360px;
+    float:left;
+    margin-left:7%;
+    margin-right: 3%;
+}
+
+#infos{
+    margin-right:7%;
+    margin-bottom: 220px;
+}
+
+p{
+    font-family: "Alegreya";
+    font-size: 18px;
+    text-align: justify;
+}
+
+#affiche_un{
+    background-image: url(images/affiche_enfant.jpg);
+    background-color: #D9D9D9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:solid 1px black;
+    border-radius: 15px;
+    width:25%;
+    height: 550px;
+    float:left;
+    margin-left:6%;
+}
+
+#affiche_deux{
+    background-image: url(images/affiche_lune.jpg);
+    background-color: #D9D9D9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:solid 1px black;
+    border-radius: 15px;
+    width:25%;
+    height: 550px;
+    float:left;
+    margin-left:6%;
+}
+
+#affiche_trois{
+    background-image: url(images/affiche_espace.jpg);
+    background-color: #D9D9D9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:solid 1px black;
+    border-radius: 15px;
+    width:25%;
+    height: 550px;
+    float:left;
+    margin-left:6%;
+}
+
+#retouche{
+    background-image: url(images/compositing_couloir.jpg);
+    background-color: #D9D9D9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:solid 1px black;
+    border-radius: 15px;
+    width:25%;
+    height: 550px;
+    float:left;
+    margin-left:37%;
+    margin-top:3%;
+    margin-right:37%;
+    margin-bottom:3%;
+}
+
+#casquette{
+    background-image: url(images/casquette2.jpg);
+    background-color: #D9D9D9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:solid 1px black;
+    border-radius: 15px;
+    width:15%;
+    height: 350px;
+    float:left;
+    margin-left:6%;
+}
+
+#coque{
+    background-image: url(images/coque.jpg);
+    background-color: #D9D9D9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:solid 1px black;
+    border-radius: 15px;
+    width:15%;
+    height: 350px;
+    float: left;
+    margin-left:6%;
+}
+
+#sac{
+    background-image: url(images/sac.jpg);
+    background-color: #D9D9D9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:solid 1px black;
+    border-radius: 15px;
+    width:25%;
+    height: 350px;
+    float:left;
+    margin-left:6%;
+}
+
+#usb{
+    background-image: url(images/usb.jpg);
+    background-color: #D9D9D9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border:solid 1px black;
+    border-radius: 15px;
+    width:15%;
+    height: 350px;
+    float:left;
+    margin-left:6%;
+}
+
+#mockups{
+    margin-top: 3%;
+}
+
+/*CSS pour le footer*/
+#contact{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+}
+
+footer{
+    
+    height:10%;
+    width:100%;
+}
+
+footer h3{
+    
+    font-family: 'Safira March Personal Use';
+    color: black;
+    text-align: center;
+}
+
+footer img{
+    height:8vh;
+    width:auto;
+    padding-left:1%;
+    padding-right:1%;
+    padding-bottom:1%;
+}
+
+footer img:hover{
+    cursor: pointer;
+}
+
+footer p{
+    font-family: "Alegreya";
+    font-size: 16px;
+    text-align: center; 
+}
