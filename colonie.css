@@ -87,7 +87,7 @@ h5{
 
 #logo{
     background-color: #D9D9D9;
-    background-image: url(images/logo_colonie.jpg);
+    background-image: url(logo_colonie.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,7 +113,7 @@ p{
 
 #icones{
     background-color: #D9D9D9;
-    background-image: url(images/icones.jpg);
+    background-image: url(icones.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
