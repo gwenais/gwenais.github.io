@@ -98,7 +98,7 @@ h2{
 }
 
 #img1{
-    background-image: url(images/bombe.JPG);
+    background-image: url(bombe.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,7 +111,7 @@ h2{
     width:50%;
     height:250px;
     margin-left: 43%;
-    background-image: url(images/texture.JPG);
+    background-image: url(texture.JPG);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,7 +121,7 @@ h2{
 #img3{
     width:90%;
     height:250px;
-    background-image: url(images/face_bombe.JPG);
+    background-image: url(face_bombe.JPG);
     background-position:center;
     background-repeat: no-repeat;
     background-size: cover;
