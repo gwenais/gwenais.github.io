@@ -81,7 +81,7 @@ h3{
 
 #logo{
     background-color: #D9D9D9;
-    background-image: url(images/polaris.jpg);
+    background-image: url(polaris.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -106,7 +106,7 @@ p{
 }
 
 #affiche_un{
-    background-image: url(images/affiche_enfant.jpg);
+    background-image: url(affiche_enfant.jpg);
     background-color: #D9D9D9;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,7 +120,7 @@ p{
 }
 
 #affiche_deux{
-    background-image: url(images/affiche_lune.jpg);
+    background-image: url(affiche_lune.jpg);
     background-color: #D9D9D9;
     background-position: center;
     background-repeat: no-repeat;
@@ -134,7 +134,7 @@ p{
 }
 
 #affiche_trois{
-    background-image: url(images/affiche_espace.jpg);
+    background-image: url(affiche_espace.jpg);
     background-color: #D9D9D9;
     background-position: center;
     background-repeat: no-repeat;
@@ -148,7 +148,7 @@ p{
 }
 
 #retouche{
-    background-image: url(images/compositing_couloir.jpg);
+    background-image: url(compositing_couloir.jpg);
     background-color: #D9D9D9;
     background-position: center;
     background-repeat: no-repeat;
@@ -165,7 +165,7 @@ p{
 }
 
 #casquette{
-    background-image: url(images/casquette2.jpg);
+    background-image: url(casquette2.jpg);
     background-color: #D9D9D9;
     background-position: center;
     background-repeat: no-repeat;
@@ -179,7 +179,7 @@ p{
 }
 
 #coque{
-    background-image: url(images/coque.jpg);
+    background-image: url(coque.jpg);
     background-color: #D9D9D9;
     background-position: center;
     background-repeat: no-repeat;
@@ -193,7 +193,7 @@ p{
 }
 
 #sac{
-    background-image: url(images/sac.jpg);
+    background-image: url(sac.jpg);
     background-color: #D9D9D9;
     background-position: center;
     background-repeat: no-repeat;
@@ -207,7 +207,7 @@ p{
 }
 
 #usb{
-    background-image: url(images/usb.jpg);
+    background-image: url(usb.jpg);
     background-color: #D9D9D9;
     background-position: center;
     background-repeat: no-repeat;
