@@ -2,10 +2,347 @@ html, body{
     padding:0;
     margin:0;
 }
+/*Media queries pour tel*/
+@media only screen and (max-width: 768px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        position:fixed;
+        bottom:0;
+        left:0;
+        background-color: white;
+        z-index:1;
+        width:100%;
+    }
+    
+    .degrade{
+        background: linear-gradient(to bottom, transparent, white 25%);
+    }
+    
+    header a {
+        font-family: 'Safira March Personal Use';
+        color:black;
+    }
+    
+    /*Lien normal*/
+    a:link{
+        text-decoration: none;
+    }
+    
+    /*Lien survolé*/
+    a:hover{
+        text-decoration: none;
+    }
+    
+    /*Lien cliqué*/
+    a:active{
+        text-decoration: none;
+    }
+    
+    /*Lien visité*/
+    a:visited{
+        text-decoration: none;
+    }
+    
+    header img{
+        width:150px;
+        height:auto;
+    }
+    
+    button:hover{
+        cursor: pointer;
+    }
+    
+    button{
+        font-family: "Safira March Personal Use";
+        background-color: #D9D9D9;
+        color:black;
+        border:solid 2px black;
+        border-radius: 15px;
+        font-size: 20px;
+        padding:auto;
+        width:5%;
+        height:60px;
+        margin-top:1vh;
+        overflow: hidden;
+    }
+    
+    h1{
+        font-family: "Gallient";
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    svg{
+    
+        display:none;
+    }
+    
+    main{
+        margin-bottom:15vh;
+    }
+    
+    h2{
+        font-family: 'Safira March Personal Use';
+        color: black;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    h3{
+        font-family: 'Safira March Personal Use';
+        color: black;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    h5{
+        font-family: 'Safira March Personal Use';
+        font-size: 8px;
+        color: black;
+        text-align: center;
+    }
+    
+    
+    p{
+        font-family: "Alegreya";
+        font-size: 14px;
+        text-align: justify;
+    }
+    
+    #video{
+        background-color: #D9D9D9;
+        border:solid 2px black;
+        width:90%;
+        height:auto;
+        margin:auto;
+        margin-bottom: 3%;
+    }
+    
+    #explication{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #texte{
+        width:60%;
+        text-align: justify;
+    }
+    
+    /*CSS pour le footer*/
+    #contact{
+        display: flex;
+        justify-content: center;
+        flex-direction:row;
+    }
+    
+    footer{
+        height:10%;
+        width:100%;
+        margin-bottom:15%;
+    }
+    
+    footer h3{
+        font-family: 'Safira March Personal Use';
+        color: black;
+        text-align: center;
+    }
+    
+    footer img{
+        height:6vh;
+        width:auto;
+        padding-left:1%;
+        padding-right:1%;
+        padding-bottom:1%;
+    }
+    
+    footer img:hover{
+        cursor: pointer;
+    }
+    
+    footer p{
+        font-family: "Alegreya";
+        font-size: 16px;
+        text-align: center; 
+    }
 
+}/*fin media queries pour tel*/
+
+/*Media queries pour tablette*/
+@media screen and (min-width:768px) and (max-width:960px) {
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-evenly;
+        position:fixed;
+        top:0;
+        left:0;
+        background-color: white;
+        z-index:1;
+        width:100%;
+    }
+    
+    .degrade{
+        background: linear-gradient(to top, transparent, white 25%);
+    }
+    
+    header a {
+        font-family: 'Safira March Personal Use';
+        color:black;
+    }
+    
+    /*Lien normal*/
+    a:link{
+        text-decoration: none;
+    }
+    
+    /*Lien survolé*/
+    a:hover{
+        text-decoration: none;
+    }
+    
+    /*Lien cliqué*/
+    a:active{
+        text-decoration: none;
+    }
+    
+    /*Lien visité*/
+    a:visited{
+        text-decoration: none;
+    }
+    
+    header img{
+        width:150px;
+        height:auto;
+    }
+    
+    button:hover{
+        cursor: pointer;
+    }
+    
+    button{
+        font-family: "Safira March Personal Use";
+        background-color: #D9D9D9;
+        color:black;
+        border:solid 2px black;
+        border-radius: 15px;
+        font-size: 9px;
+        padding:auto;
+        width:17%;
+        height:55px;
+        margin-top:1vh;
+    }
+    
+    h1{
+        font-family: "Gallient";
+        font-size: 40px;
+        text-align: center;
+    }
+    
+    svg{   
+        display:none;
+    }
+    
+    main{
+        margin-top:15vh;
+    }
+    
+    h2{
+        font-family: 'Safira March Personal Use';
+        color: black;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    h3{
+        font-family: 'Safira March Personal Use';
+        color: black;
+        font-size: 16px;
+        text-align: center;
+    }
+    
+    h5{
+        font-family: 'Safira March Personal Use';
+        font-size: 10px;
+        color: black;
+        text-align: center;
+    }
+    
+    p{
+        font-family: "Alegreya";
+        font-size: 16px;
+        text-align: justify;
+    }
+    
+    #video{
+        background-color: #D9D9D9;
+        border:solid 2px black;
+        width:90%;
+        height:auto;
+        margin:auto;
+        margin-bottom: 3%;
+    }
+    
+    #explication{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    #texte{
+        width:60%;
+        text-align: justify;
+    }
+    
+    
+    /*CSS pour le footer*/
+    #contact{
+        display: flex;
+        justify-content: center;
+        flex-direction:row;
+    }
+    
+    footer{
+        height:10%;
+        width:100%;
+    }
+    
+    footer h3{
+        font-family: 'Safira March Personal Use';
+        color: black;
+        text-align: center;
+    }
+    
+    footer img{
+        height:6vh;
+        width:auto;
+        padding-left:1%;
+        padding-right:1%;
+        padding-bottom:1%;
+    }
+    
+    footer img:hover{
+        cursor: pointer;
+    }
+    
+    footer p{
+        font-family: "Alegreya";
+        font-size: 16px;
+        text-align: center; 
+    }
+    
+}/*fin media queries pour tablette*/
+
+/*Media queries pour PC portable*/
+@media screen and (min-width:960px) and (max-width:1600px) {
 header{
-    display:flex;
-    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
     position:fixed;
     top:0;
     left:0;
@@ -21,7 +358,6 @@ header{
 header a {
     font-family: 'Safira March Personal Use';
     color:black;
-    margin:auto;
 }
 
 /*Lien normal*/
@@ -45,9 +381,28 @@ a:visited{
 }
 
 header img{
-    width:12%;
+    width:20%;
     height:auto;
+    padding-left:40%;
 }
+
+button:hover{
+    cursor: pointer;
+}
+
+button{
+    font-family: "Safira March Personal Use";
+    background-color: #D9D9D9;
+    color:black;
+    border:solid 2px black;
+    border-radius: 15px;
+    font-size: 9px;
+    padding:auto;
+    width:17%;
+    height:35px;;
+    margin-top:1%;
+}
+
 
 h1{
     font-family: "Gallient";
@@ -86,23 +441,6 @@ h2{
     text-align: justify;
 }
 
-
-button:hover{
-    cursor: pointer;
-}
-
-button{
-    font-family: "Safira March Personal Use";
-    background-color: white;
-    color:black;
-    border:solid 2px black;
-    border-radius: 15px;
-    font-size: 9px;
-    padding:auto;
-    width:30%;
-    height:55px;;
-    margin-left:35%;
-}
 
 a{
     color: black;
@@ -167,3 +505,11 @@ footer p{
     font-size: 16px;
     text-align: center; 
 }
+}/*fin media queries pour PC portable*/
+
+
+
+/*Media queries pour PC*/
+@media screen and (min-width:1600px){
+
+}/*fin media queries pour PC*/
